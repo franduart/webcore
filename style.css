@@ -1195,7 +1195,6 @@ footer .container{
 
 
 
-/* Tablets grandes */
 @media (max-width: 1024px) {
 
     .hero h1 {
@@ -1220,7 +1219,7 @@ footer .container{
     }
 }
 
-/* Tablets */
+
 @media (max-width: 900px) {
 
     .hero-content {
@@ -1275,7 +1274,7 @@ footer .container{
     }
 }
 
-/* Celulares */
+
 @media (max-width: 600px) {
 
     header .container {
@@ -1344,7 +1343,7 @@ footer .container{
     }
 }
 
-/* Celulares pequenos */
+
 @media (max-width: 400px) {
 
     .hero h1 {
