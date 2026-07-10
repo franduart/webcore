@@ -1,5 +1,5 @@
 const menuButton = document.querySelector("#menu-mobile");
-const nav = document.querySelector("nav");
+const nav = document.querySelector("#menu");
 const overlay = document.querySelector(".overlay");
 const links = document.querySelectorAll("nav a");
 const icon = menuButton.querySelector("i");
