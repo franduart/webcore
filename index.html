@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebCore | Desenvolvimento de Sites</title>
+    <title>MoonByte | Desenvolvimento de Sites</title>
 
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
 <div class="header-div">
 
 <div class="logo">
-<h2>Francieli<span>Duarte Code</span></h2>
+<h2>Moon<span>Byte</span></h2>
 </div>
 
 <nav>
@@ -55,7 +55,7 @@ Solicitar Orçamento
 
 <!-- HERO -->
 
-<section class="hero" id="inicio">
+<section class="hero" id="inicio" data-aos="fade-right">
 
 <div class="container hero-content">
 
@@ -79,9 +79,6 @@ Criamos sites modernos, rápidos e totalmente responsivos para empresas que dese
 Solicitar orçamento
 </a>
 
-<a href="#" class="btn-secondary">
-Ver Projetos
-</a>
 
 </div>
 
@@ -99,7 +96,10 @@ Ver Projetos
 
 <!-- NÚMEROS -->
 
-<section class="numbers-section">
+<section class="numbers-section" 
+     data-aos="fade-right" 
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
 <div class="numbers">
 
@@ -141,7 +141,10 @@ Ver Projetos
 
 <!-- SERVIÇOS -->
 
-<section  id="servicos">
+<section  id="servicos"  
+data-aos="fade-left"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
 
 <div class="services">
 
@@ -197,7 +200,10 @@ Ver Projetos
 
 <!-- DIFERENCIAIS -->
 
-<section class="benefits">
+<section class="benefits" 
+    data-aos="fade-right"
+    data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
 <div class="benefits-div">
 
@@ -390,8 +396,8 @@ Solicitar orçamento
     <div class="container">
 
         <div class="footer-logo">
-            <h2>Francieli <span>Duarte Code</span></h2>
-            <p>Desenvolvedora Front-end especializada na criação de sites modernos, rápidos e responsivos para empresas.</p>
+            <h2>Moon <span>Byte</span></h2>
+            <p>Desenvolvimento de sites, sistemas e soluções digitais para empresas.</p>
         </div>
 
         <div class="footer-links">
@@ -434,7 +440,7 @@ Solicitar orçamento
 
     <div class="footer-bottom">
 
-        <p>© 2026 <span>Francieli Duarte Code</span> • Todos os direitos reservados.</p>
+        <p>© 2026 <span>MoonByte</span> • Todos os direitos reservados.</p>
 
     </div>
 
@@ -442,6 +448,10 @@ Solicitar orçamento
 
 <div class="overlay"></div>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="script.js"></script>
 
 </body>
